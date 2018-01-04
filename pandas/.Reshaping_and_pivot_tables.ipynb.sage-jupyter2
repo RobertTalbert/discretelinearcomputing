@@ -1,4 +1,4 @@
-{"type":"settings","backend_state":"running","trust":true,"kernel":"anaconda3","kernel_usage":{"cpu":0,"memory":152952832},"kernel_state":"idle"}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"anaconda3","kernel_usage":{"cpu":0,"memory":125759488},"kernel_state":"idle"}
 {"type":"file","last_load":1515010167655}
 {"exec_count":1,"start":1515010189757,"input":"import pandas as pd\nimport numpy as np","state":"done","pos":0,"type":"cell","end":1515010190694,"id":"9f47a2","kernel":"anaconda3"}
 {"exec_count":2,"start":1515010206954,"input":"# Generate the fake data frame in the docs\n\nimport pandas.util.testing as tm; tm.N = 3\ndef unpivot(frame):\n    N, K = frame.shape\n    data = {'value' : frame.values.ravel('F'),\n            'variable' : np.asarray(frame.columns).repeat(N),\n            'date' : np.tile(np.asarray(frame.index), K)}\n    return pd.DataFrame(data, columns=['date', 'variable', 'value'])\ndf = unpivot(tm.makeTimeDataFrame())","state":"done","pos":1,"type":"cell","end":1515010206966,"id":"a6e6ab","kernel":"anaconda3"}
