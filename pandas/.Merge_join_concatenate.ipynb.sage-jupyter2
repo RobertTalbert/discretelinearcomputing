@@ -1,4 +1,4 @@
-{"type":"settings","kernel":"anaconda3","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":141492224},"kernel_state":"idle"}
+{"type":"settings","kernel":"anaconda3","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":119345152},"kernel_state":"idle"}
 {"type":"file","last_load":1515096910655}
 {"exec_count":1,"start":1515096998652,"input":"import pandas as pd\nimport numpy as np","state":"done","pos":0,"type":"cell","end":1515096999336,"id":"69be9c","kernel":"anaconda3"}
 {"type":"cell","id":"df13fb","pos":1,"input":"# Merge, join, concatenate\n\n## Concatenating","cell_type":"markdown"}
